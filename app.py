@@ -15,7 +15,7 @@ def predict(float_features):
     
 def main():
     st.set_page_config(page_title='identifying credit worthy borrowers ')
-    
+    st.title('Loan Prediction App')
 #     st.write("Please enter the required input parameters to predict the fetal health classification:")
     features = ['credit_policy', 'int_rate', 'installment', 'log_annual_inc', 'dti',
        'fico', 'days_with_cr_line', 'revol_bal', 'revol_util',
