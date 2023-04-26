@@ -3,7 +3,7 @@ import pickle
 import streamlit as st
 
 
-with gzip.open('C:/Users/91831/Desktop/Chetan_ml/BinaryData.pkl.gz', 'rb') as f:
+with gzip.open('BinaryData.pkl.gz', 'rb') as f:
     model = pickle.load(f)
 
 def predict(float_features):
